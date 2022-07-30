@@ -1,0 +1,33 @@
+body {
+    bacskground: rgb(4, 62, 39);
+    padding: 0;
+    margin: 0;
+}
+.header {
+    background-color: rgb(84, 36, 116);
+    display: flex;
+    justify-content: center;
+}
+.battleGround{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: end;
+    flex-wrap: wrap;
+     width: 282px;
+     height: 280px;
+     background-color: rgb(25, 5, 5);
+     
+}
+.gameboard {
+    -top: 80px;
+    background-color: #444232;
+}
+
+.dot1 {
+    background-color: green;
+    height: 90px;
+    width: 90px;
+    border: 2px solid red;
+    border-collapse: c;
+}
